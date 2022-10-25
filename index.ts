@@ -42,19 +42,5 @@ async function serverOn() {
 
 serverOn()
 
-// const rutas = require("./routes/index");
-// const app = express();
-// const PORT = process.env.PORT || 3000;
 
-
-// ejemplo del login/token
-// app.use(express.static("public"));
-
-// app.listen(PORT, () => {
-//     console.log("🔥🔥🔥 http://localhost:" + PORT);
-//   });
-  
-//   app.use("/", rutas);
-
-  
   module.exports = app;
